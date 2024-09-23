@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="翻译自 https://gist.github.com/f1shy-dev/23b4a78dc283edd30ae2b2e6429129b5">
+<title>sneakyf1shy Apple 智能教程 v2.0</title>
+
+<link rel='canonical' href='https://rpone.top/p/sneakyf1shy-apple-%E6%99%BA%E8%83%BD%E6%95%99%E7%A8%8B-v2.0/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="sneakyf1shy Apple 智能教程 v2.0">
+<meta property='og:description' content="翻译自 https://gist.github.com/f1shy-dev/23b4a78dc283edd30ae2b2e6429129b5">
+<meta property='og:url' content='https://rpone.top/p/sneakyf1shy-apple-%E6%99%BA%E8%83%BD%E6%95%99%E7%A8%8B-v2.0/'>
+<meta property='og:site_name' content='rponeawa'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='教程' /><meta property='article:published_time' content='2024-09-23T16:18:18&#43;08:00'/><meta property='article:modified_time' content='2024-09-23T16:18:18&#43;08:00'/>
+<meta name="twitter:title" content="sneakyf1shy Apple 智能教程 v2.0">
+<meta name="twitter:description" content="翻译自 https://gist.github.com/f1shy-dev/23b4a78dc283edd30ae2b2e6429129b5">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu4607309388983613104.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🦈</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">rponeawa</a></h1>
+            <h2 class="site-description">rponeawa&#39;s Blog</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/332095459'
+                        target="_blank"
+                        title="Bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bilibili"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" /><path d="M8 3l2 3" /><path d="M16 3l-2 3" /><path d="M9 13v-2" /><path d="M15 11v2" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/rponeawa'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#这实际上是下载模型而不仅仅是新的-siri-界面因此这个过程复杂且可能不值得尝试">这实际上是下载模型，而不仅仅是新的 Siri 界面。因此，这个过程复杂且<strong>可能不值得尝试。</strong></a></li>
+          </ol>
+        </li>
+        <li><a href="#-准备好感到失望和恼火并浪费时间">⚠️ 准备好感到失望和恼火，并浪费时间！⚠️</a></li>
+        <li><a href="#-请始终自行承担风险尝试-">🚧 请始终自行承担风险尝试 🚧</a></li>
+        <li><a href="#再次提醒如果你只是想要新的界面这不是你要找的教程">再次提醒，如果你<em><strong>只是</strong></em>想要新的界面，这不是你要找的教程。</a></li>
+        <li><a href="#所以这个教程到底做了什么">所以，这个教程到底做了什么？</a></li>
+        <li><a href="#第-0-部分要求">第 0 部分：要求</a></li>
+        <li><a href="#第-1-部分gestalt-修改">第 1 部分：Gestalt 修改</a></li>
+        <li><a href="#第-2-部分绕过候补名单资格限制">第 2 部分：绕过“候补名单”/资格限制</a></li>
+        <li><a href="#第-3-部分希望能成功">第 3 部分：希望能成功</a></li>
+        <li><a href="#第-4-部分修复-face-id">第 4 部分：修复 Face ID？</a></li>
+        <li><a href="#附加地区要求">附加：地区要求</a></li>
+        <li><a href="#附加其他信息">附加：其他信息</a></li>
+        <li><a href="#致谢">致谢</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/sneakyf1shy-apple-%E6%99%BA%E8%83%BD%E6%95%99%E7%A8%8B-v2.0/">sneakyf1shy Apple 智能教程 v2.0</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            翻译自 https://gist.github.com/f1shy-dev/23b4a78dc283edd30ae2b2e6429129b5
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 23, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 2 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h4 id="这实际上是下载模型而不仅仅是新的-siri-界面因此这个过程复杂且可能不值得尝试">这实际上是下载模型，而不仅仅是新的 Siri 界面。因此，这个过程复杂且<strong>可能不值得尝试。</strong>
+</h4><h3 id="-准备好感到失望和恼火并浪费时间">⚠️ 准备好感到失望和恼火，并浪费时间！⚠️
+</h3><ul>
+<li><strong>不</strong>起作用的功能：写作工具、记忆、减少干扰、图像擦除以及其他在支持设备上的官方 Apple 智能工具。</li>
+<li>起作用的功能：略微改进的 Siri，新界面
+<ul>
+<li>（例如）你可以询问 iPhone/iPad 用户指南，或者要求在 Spotify 上播放特定的歌曲，这是旧版 Siri 无法做到的。</li>
+</ul>
+</li>
+</ul>
+<p><strong>⚠️ 提示</strong></p>
+<ul>
+<li>🧱 这也会<em><strong>暂时</strong></em>使你的 Face ID 无法使用（可以修复，见<a class="link" href="#Part-4-Fixing-Face-ID" >修复 Face ID</a>）</li>
+<li>📺 这<em><strong>可能</strong></em>也与待机/AOD 功能的失效有关（<em><strong>尚未确认</strong></em>）。</li>
+</ul>
+<h3 id="-请始终自行承担风险尝试-">🚧 请始终自行承担风险尝试 🚧
+</h3><p>修改设备的 MobileGestalt 文件**有可能导致设备变砖，**如果操作错误的话。</p>
+<h3 id="再次提醒如果你只是想要新的界面这不是你要找的教程">再次提醒，如果你<em><strong>只是</strong></em>想要新的界面，这不是你要找的教程。
+</h3><blockquote>
+<p>我们（我和 cowabunga）不会/没有义务为本指南提供支持。你可以在 Cowabunga 服务器上寻求帮助，但<strong>不要指望得到任何帮助。</strong></p>
+</blockquote>
+<hr>
+<h3 id="所以这个教程到底做了什么">所以，这个教程到底做了什么？
+</h3><p>为了在旧型号设备上获取  智能：</p>
+<ul>
+<li>需要向 MobileGestalt 文件添加生成模型能力</li>
+<li>必须通过/绕过  智能的资格（包括地区能力和“候补名单”）</li>
+<li>你的 iPhone 型号必须暂时伪装成支持  智能的新型号（例如 15 Pro），以便苹果服务器允许你下载模型</li>
+</ul>
+<p>一旦模型下载完成，撤销伪装后仍然可以继续使用。它会表现得像手机一直支持  智能一样。
+但要下载这些模型，首先需要将你的 ProductType 更改为 15 Pro 或更新型号，等待下载完成，然后再还原更改。</p>
+<p>这是一个多阶段的过程，需要一些反复试验。下载并不总是能顺利开始。</p>
+<h3 id="第-0-部分要求">第 0 部分：要求
+</h3><p>你的设备必须是 iPhone XS 或更新版本，且运行<strong>iOS/iPadOS 18.1 Beta 4 / 18.1 Public Beta</strong>（或更新版本？）</p>
+<h3 id="第-1-部分gestalt-修改">第 1 部分：Gestalt 修改
+</h3><ul>
+<li>使用<a class="link" href="https://www.icloud.com/shortcuts/e2077174cc424253a24164a1df674ac4"  target="_blank" rel="noopener"
+    >快捷方式</a>获取你 MobileGestalt 文件的新 .plist 副本。</li>
+<li>在某处做一份备份！你<strong>稍后</strong>会需要它，并且如果你想撤销这个调整，也需要用到。</li>
+<li>每次对手机进行<strong>任何</strong>更改（例如更新）时，请再次运行快捷方式，并导入/使用新的 MobileGestalt 文件。</li>
+</ul>
+<p><strong>伪装你的 ProductType（设备型号）</strong></p>
+<p>使用任何文件编辑器打开 .plist 文件，按 CTRL + F 查找 <code>h9jDsbgj7xIVeIQ8S3/X3Q</code>。你应该能在其下找到你的 iPhone/iPad 型号标识符（例如：<code>iPhone14,2</code>）。</p>
+<p>将其替换为 <code>iPhone16,2</code>（如果你使用的是 iPad，则替换为 <code>iPad16,3</code>），行应类似于：<code>&lt;string&gt;iPhone16,2&lt;/string&gt;</code>。</p>
+<p>这将允许你伪装苹果服务器，使其认为你有一台 iPhone 15 Pro（或 iPad Pro M4），从而启用模型下载，但也正是这一操作会暂时导致 Face ID 无法使用（因为序列化问题）。</p>
+<p><strong>添加生成模型能力</strong></p>
+<p>现在，在文件中这个位置之后：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;key&gt;</span>CacheExtra<span class="nt">&lt;/key&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;dict&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>添加</strong>这两行（缩进不重要）</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;key&gt;</span>A62OafQ85EJAiiqKn4agtg<span class="nt">&lt;/key&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;integer&gt;</span>1<span class="nt">&lt;/integer&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后，前往 <strong>Nugget</strong>，将修改后的 MobileGestalt .plist 文件应用到你的设备，然后重启。</p>
+<blockquote>
+<p>MobileGestalt 文件路径：<code>/var/containers/Shared/SystemGroup/systemgroup.com.apple.mobilegestaltcache/Library/Caches/com.apple.MobileGestalt.plist</code></p>
+</blockquote>
+<h3 id="第-2-部分绕过候补名单资格限制">第 2 部分：绕过“候补名单”/资格限制
+</h3><blockquote>
+<p>如果你在中国，或多次尝试后仍看不到相关选项，请查看<a class="link" href="#extra-regional-requirements" >地区要求</a>部分
+现在，你的设备设置中应该出现 Apple 智能选项卡。</p>
+</blockquote>
+<p>如果出现，前往 MisakaX，添加修改后的 MobileGestalt .plist 文件，然后点击“Apple 智能(Extra)”。</p>
+<blockquote>
+<p>如果不起作用，使用本指南末尾附带的文件（滚动查看 <code>eligibility.plist</code>），前往 Nugget 或 Misaka，将文件写入设备的路径 <code>/var/db/eligibilityd/eligibility.plist</code>。</p>
+</blockquote>
+<p>如果你看不到智能选项，可能需要重复这一步。</p>
+<h3 id="第-3-部分希望能成功">第 3 部分：希望能成功
+</h3><ul>
+<li>重启设备，确保已连接 Wi-Fi，并关闭低电量模式。</li>
+<li>然后，等待最多 5 分钟，让手机完全启动，关闭设置应用，然后重新打开。</li>
+<li>确保设备的地区设置为美国，语言为美国英语。</li>
+<li>确保你的 Apple ID 不是欧盟账户，如果是，请完全退出 iCloud。如果仍然不行，重新进行第 2 步，或创建一个非欧盟 Apple ID。</li>
+</ul>
+<p><em>在 Apple 智能和 Siri 页面：</em></p>
+<ul>
+<li>确保你的 Apple 智能语言设置为 <code>English: United States</code></li>
+</ul>
+<blockquote>
+<p>如果你没有在“Apple 智能”旁边看到绿色/灰色切换按钮<br>
+请等待最多 15 分钟让它“下载”，如果仍然不行，重复第 2 步并重启。</p>
+</blockquote>
+<ul>
+<li>将 Apple 智能开关<strong>关闭</strong>，然后重新<strong>打开</strong>，等待它下载模型并安装。</li>
+<li>指示成功的标志：
+<ul>
+<li>如果你的手机变得非常非常热</li>
+<li>在设置 &gt; 通用 &gt; iPhone/iPad 存储 &gt; （向下滚动）iOS 中，应该看到“Apple 智能”，从 44MB 增长到大约 2.2GB-3GB（可能有所不同）。</li>
+</ul>
+</li>
+<li>如果仍然不起作用，你可以尝试将 Apple 智能语言更改为随机语言，等待一分钟，然后再更改回 <code>English: United States</code>，然后再次尝试。</li>
+</ul>
+<h3 id="第-4-部分修复-face-id">第 4 部分：修复 Face ID？
+</h3><ul>
+<li>你必须<strong>等待</strong> Apple 智能（Siri）完全下载并正常工作<strong>之后</strong>再修复 Face ID/还原你的 ProductType。</li>
+<li>获取第 1 部分的<strong>修改版</strong> MobileGestalt 文件（不是你之前备份的文件）</li>
+<li>将 ProductType 键（<code>h9jDsbgj7xIVeIQ8S3/X3Q</code>）更改回你设备的正确值（例如 <code>iPhone14,2</code> 或 <code>iPad12,1</code>）
+<ul>
+<li>如果忘记了，可以访问 <a class="link" href="https://appledb.dev/device-selection/"  target="_blank" rel="noopener"
+    >https://appledb.dev/device-selection/</a> 查找</li>
+<li>还原第 1 部分时，只需要保留 <code>DeviceSupportsGenerativeModelSystems</code> 键</li>
+</ul>
+</li>
+<li>现在，将这个新的 MobileGestalt 文件应用到你的设备，然后通过 Nugget 重启。</li>
+<li>重启设备，连接 Wi-Fi</li>
+<li>然后，再次等待大约 5 分钟。</li>
+<li>它应该会“下载”大约 5 分钟左右，之后 AI（Siri）应该再次开始工作！</li>
+</ul>
+<h3 id="附加地区要求">附加：地区要求
+</h3><ul>
+<li>如果你在设置中看到 AI 选项，但很快就消失了，请在 Nugget 中启用并应用“禁用地区限制”选项。</li>
+<li>如果你在中国，首先使用 MisakaX 中的“禁用快门声”选项。这将把设备从亚洲更改为欧洲/美国，这应该有助于让 Apple 智能正常工作。</li>
+</ul>
+<h3 id="附加其他信息">附加：其他信息
+</h3><ul>
+<li>基本上，确保你的 gestalt 没有内部存储相关问题&hellip;这可能会导致一段时间内无法正常工作（尽管没有证据）。</li>
+<li>你还可以调整功能标志，例如 PrivateCloudCompute、TextComposer、Siri、SiriNL 等等。</li>
+</ul>
+<h3 id="致谢">致谢
+</h3><ul>
+<li>@sneakyf1shy / @f1shy-dev - 这都是我！我发现了许多内容，并撰写了这篇指南以及其他指南</li>
+<li>@XeZrunner（推特）- 帮助我解决了许多问题</li>
+<li>@34306 - MisakaX</li>
+<li>@lemin - Nugget</li>
+<li>@legallywanted - 重写了这份指南，使其更易理解</li>
+<li>@JJTech - 提供了 Sparserestore/TrollRestore</li>
+<li>pymobiledevice3</li>
+<li>Apple（让一切如此复杂）</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2024 rponeawa
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.27.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
