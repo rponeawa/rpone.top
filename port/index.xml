@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Ports on rponeawa</title>
+        <link>https://rpone.top/port/</link>
+        <description>Recent content in Ports on rponeawa</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>rponeawa</copyright>
+        <lastBuildDate>Sun, 13 Oct 2024 19:09:56 +0800</lastBuildDate><atom:link href="https://rpone.top/port/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Fix Minimuxer</title>
+        <link>https://rpone.top/port/fix-minimuxer/</link>
+        <pubDate>Sun, 13 Oct 2024 19:09:56 +0800</pubDate>
+        
+        <guid>https://rpone.top/port/fix-minimuxer/</guid>
+        <description>&lt;p&gt;如果你的手机版 Nugget 或 SparseBox 报错 Minimuxer is not ready，请完整按照以下所述步骤完成后再提问：&lt;/p&gt;
+&lt;h2 id=&#34;获取您的-mobiledevicepairing-文件&#34;&gt;获取您的 mobiledevicepairing 文件
+&lt;/h2&gt;&lt;p&gt;要获取 pairing 文件，请按以下步骤操作：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;从群文件下载 &lt;code&gt;jitterbugpair-win64.zip&lt;/code&gt;，解压后运行。&lt;/li&gt;
+&lt;li&gt;将 &lt;code&gt;.mobiledevicepairing&lt;/code&gt; 文件分享至您的 iOS 设备。&lt;/li&gt;
+&lt;li&gt;打开应用并选择 pairing 文件。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;除非您丢失文件或删除了应用数据，否则您只需执行一次此操作。&lt;/p&gt;
+&lt;h2 id=&#34;配置-wireguard&#34;&gt;配置 WireGuard
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;在 iOS App Store 下载 &lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/wireguard/id1441195209&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;WireGuard&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;在您的 iOS 设备上下载 SideStore 的配置文件，即群文件中 SideStore.conf。&lt;/li&gt;
+&lt;li&gt;使用分享菜单将配置文件分享至 WireGuard。&lt;/li&gt;
+&lt;li&gt;启用 WireGuard 并运行 Nugget。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;解决-minimuxer-问题&#34;&gt;解决 Minimuxer 问题
+&lt;/h2&gt;&lt;p&gt;如果您以前使用过 Cowabunga Lite，您可能会遇到 minimuxer 的问题。这是由于它跳过了设置过程所导致的。
+以下步骤应该可以解决问题，但它并不是一个终极解决方案。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;从群文件中下载 &lt;code&gt;fix-minimuxer.zip&lt;/code&gt;，解压后运行。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;您的设备应该会重新启动。重新启动后，尝试运行 Nugget 手机版或 SparseBox。如果它仍然无法正常运行，请按以下步骤操作：&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;设备重新启动后，进入 &lt;code&gt;[设置] -&amp;gt; 通用 -&amp;gt; 传输或重置 iPhone&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;点击 &lt;code&gt;重置&lt;/code&gt;，然后选择 &lt;code&gt;重置位置与隐私&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;Nugget 手机版或 SparseBox 现在应该可以正常工作。如果仍然不行，尝试获取一个新的 pairing 文件。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如果上述步骤对您无效，请尝试使用 &lt;code&gt;Cowabunga Lite&lt;/code&gt; 并点击 &lt;code&gt;深度清理&lt;/code&gt; 按钮，然后再试一次这些步骤。
+如果连这样都无法解决问题，唯一已知的解决办法是重置设备（这并不是理想的解决方案）。在这种情况下，我建议使用 &lt;a class=&#34;link&#34; href=&#34;https://github.com/leminlimez/Nugget&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Nugget Python&lt;/a&gt; 来代替。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
